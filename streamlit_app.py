@@ -20,9 +20,9 @@ def clean_text(text):
 # -----------------------------
 @st.cache_resource
 def load_model():
-    with open("../models/model.pkl", "rb") as f:
+    with open("models/model.pkl", "rb") as f:
         model = pickle.load(f)
-    with open("../models/vectorizer.pkl", "rb") as f:
+    with open("models/vectorizer.pkl", "rb") as f:
         vectorizer = pickle.load(f)
     return model, vectorizer
 
