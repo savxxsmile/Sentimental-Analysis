@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# Model files
+*.pkl
